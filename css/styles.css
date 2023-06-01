@@ -195,13 +195,42 @@ body {
   }
   .mobile-adress-link-tel {
     font-family: var(--main-font-family);
-font-weight: 700;
-font-size: 36px;
-line-height: 1.11;
-letter-spacing: 0.02em;
-text-transform: capitalize;
-color: var(--primary-color);
+    display: block;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--primary-color);
+    padding-bottom: 40px;
   }
+  .mobile-adress-link-email {
+    font-family: var(--main-font-family);
+    display: block;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color-theme-dark);
+    padding-bottom: 48px;
+  }
+  .social-media-list-mobile {
+  display: flex;
+  gap: 56px;
+}
+.social-media-link-mobile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--primary-color);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.social-media-icon-mobile {
+  fill: var(--secondary-text-color-theme-light);
+}
 }
 .header-container {
   display: flex;
