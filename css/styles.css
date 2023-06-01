@@ -72,10 +72,17 @@ body {
   }
 }
 
-/* .section {
+ .section { 
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+@media screen and (min-width: 1158px) {
+  .section {
   padding-top: 120px;
   padding-bottom: 120px;
-} */
+  }
+}
 
 .visually-hidden {
   position: absolute;
@@ -426,14 +433,59 @@ body {
   }
 }
 /* SECOND SECTION */
-/* .second-section {
+.second-section {
   padding-top: 0;
 }
-.values-list {
+@media screen and (max-width: 767px) {
+  .values-list {
   display: flex;
-  gap: 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+  }
 }
-.values-list-header {
+@media screen and (max-width: 1157px) {
+  .values-container {
+    display: none;
+  }
+  .values-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 72px;
+  }
+  .values-list-header {
+  font-family: var(--main-font-family);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
+  color: var(--secondary-text-color-theme-dark);
+}
+.values-list-text {
+  font-family: var(--main-font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  max-width: 396px;
+  color: var(--primary-text-color-theme-dark);
+}
+}
+@media screen and (min-width: 768px) {
+  .values-list-item {
+  width: calc((100% - 24px) / 2);
+}
+}
+@media screen and (min-width: 1158px) {
+  .values-list {
+    display: flex;
+  gap: 24px;
+  }
+   .values-list-header { 
   font-family: var(--main-font-family);
   font-weight: 500;
   font-size: 20px;
@@ -463,7 +515,9 @@ body {
   letter-spacing: 0.02em;
   color: var(--primary-text-color-theme-dark);
 }
-.secondary-header {
+}
+/* THIRD SECTION */
+/*.secondary-header {
   margin-bottom: 72px;
   font-family: var(--main-font-family);
   font-weight: 700;
@@ -473,9 +527,8 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--secondary-text-color-theme-dark);
-} */
-/* THIRD SECTION */
-/* .jobs-list {
+}
+ .jobs-list {
   display: flex;
   gap: 24px;
 } */
