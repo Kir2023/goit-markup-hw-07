@@ -517,7 +517,16 @@ body {
 }
 }
 /* THIRD SECTION */
-/*.secondary-header {
+@media screen and (max-width: 1157px) {
+  .third-section {
+    display: none;
+  }
+}
+@media screen and (min-width: 1158px) {
+.third-section {
+  padding-top: 0px;
+}
+  .secondary-header { 
   margin-bottom: 72px;
   font-family: var(--main-font-family);
   font-weight: 700;
@@ -531,7 +540,8 @@ body {
  .jobs-list {
   display: flex;
   gap: 24px;
-} */
+}
+}
 /* TEAM SECTION */
 /* .team-list {
   display: flex;
