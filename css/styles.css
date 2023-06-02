@@ -603,15 +603,15 @@ body {
   }
 }
 @media screen and(min-width: 768px) {
-  .team-list { 
+  .team-list {
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  column-gap: 24px;
-  row-gap: 64px;
-} 
-.team-list-item {
-  width: calc((100%-24px) / 2);
+  flex-direction: row;
+    justify-content: center;
+    column-gap: 24px;
+    flex-wrap: wrap;
+}
+  .team-list-item {
+  flex-basis: calc((100%-24px) / 2);
 }
 }
 @media screen and (min-width: 1158px) {
