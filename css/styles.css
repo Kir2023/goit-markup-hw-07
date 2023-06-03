@@ -327,6 +327,9 @@ body {
   letter-spacing: 0.02em;
   display: inline;
 }
+.adress-link-email {
+  padding-bottom: 0px;
+}
 }
 /* MAIN */
 /* HERO */
