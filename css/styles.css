@@ -791,6 +791,7 @@ body {
   .footer-link {
     display: flex;
     justify-content: center;
+    align-items: baseline;
   }
   .footer-text {
     margin-left: auto;
@@ -839,7 +840,6 @@ body {
   column-gap: 24px;
   align-content: stretch;
 }
-
 }
 @media screen and (min-width: 1158px) {
   .footer {
