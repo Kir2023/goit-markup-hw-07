@@ -810,7 +810,7 @@ body {
     text-align: center;
   }
   .email-form-input {
-    width: 398px;
+    width: 100%;
   }
   .subscribe-button {
     margin-left: auto;
@@ -863,9 +863,6 @@ body {
 }
 }
 /* Portfolio */
-/* .portfolio-section {
-  padding: 96px 0 120px;
-}
 .filter-btn-list {
   display: flex;
   gap: 24px;
@@ -899,6 +896,28 @@ body {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
+@media screen and (max-width: 767px) {
+  .portfolio-section {
+  padding: 48px 0 48px;
+}
+  .filter-btn-list {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    row-gap: 16px;
+    column-gap: 24px;
+}
+}
+@media screen and (min-width: 768px) {
+  .portfolio-section {
+  padding: 64px 0 96px;
+}
+}
+@media screen and (min-width: 1158px) {
+  .portfolio-section {
+  padding: 100px 0 120px;
+}
+}
+/* 
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
