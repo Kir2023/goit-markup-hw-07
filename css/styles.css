@@ -167,6 +167,9 @@ body {
     pointer-events: auto;
   }
   .mobile-menu-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     position: relative;
   }
   .mobile-menu-close-btn {
@@ -189,7 +192,6 @@ body {
     align-items: flex-start;
     padding: 0px;
     gap: 40px;
-    margin-bottom: 284px;
     padding-top: 80px;
     padding-left: 40px;
   }
@@ -1244,4 +1246,9 @@ body {
 .contact-form-submit:hover,
 .contact-form-submit:focus {
   background-color: var(--accent-color);
+}
+@media screen and (max-width: 427px) {
+  .modal {
+    max-width: 100%;
+  }
 }
