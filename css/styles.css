@@ -171,6 +171,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     position: relative;
+    height: 100%;
   }
   .mobile-menu-close-btn {
     position: absolute;
@@ -209,6 +210,9 @@ body {
   }
   .current-menu-link {
     color: var(--accent-color);
+  }
+  .mobile-menu-bottom {
+    margin-bottom: 40px;
   }
   .mobile-adress-link-tel {
     font-family: var(--main-font-family);
