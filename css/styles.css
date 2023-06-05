@@ -323,7 +323,7 @@ body {
   .adress-link:focus {
     color: var(--accent-color);
   }
-  .adress-link-email {
+  .adress-list-item {
     margin-bottom: 12px;
   }
 }
