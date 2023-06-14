@@ -345,6 +345,9 @@ body {
   .adress-link-email {
     padding-bottom: 0px;
   }
+  .adress-list-item {
+    margin-bottom: 0px;
+  }
 }
 /* MAIN */
 /* HERO */
